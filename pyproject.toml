@@ -1,0 +1,14 @@
+[project]
+name = "language70translatorbot"
+version = "1.0.0"
+description = "Telegram bot that translates between 70+ languages"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "python-telegram-bot==20.7",
+    "googletrans==4.0.0-rc1"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
